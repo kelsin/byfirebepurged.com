@@ -1,4 +1,4 @@
-byfirebepurged.com
+By Fire Be Purged
 ==================
 
-byfirebepurged.com site and blog
+Site and Blog for the By Fire Be Purged Raiding API
