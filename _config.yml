@@ -4,7 +4,7 @@ email: kelsin@valefor.com
 description: >
   This is the main website for the By Fire Be Purged raiding API. This API
   can help manage raid scheduling and seating for World of Warcraft.
-baseurl: "/"
+baseurl: ""
 url: "http://byfirebepurged.com"
 twitter_username: kelsin5
 github_username:  kelsin
