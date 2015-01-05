@@ -1,14 +1,44 @@
 # Site settings
-title: Your awesome title
-email: your-email@domain.com
-description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://yourdomain.com" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
+title: By Fire Be Purged
+email: kelsin@valefor.com
+description: >
+  This is the main website for the By Fire Be Purged raiding API. This API
+  can help manage raid scheduling and seating for World of Warcraft.
+baseurl: "/"
+url: "http://byfirebepurged.com"
+twitter_username: kelsin5
+github_username:  kelsin
 
-# Build settings
-markdown: kramdown
+# Markdown settings
+markdown: redcarpet
+redcarpet:
+  extensions:
+    - no_intra_emphasis
+    - fenced_code_blocks
+    - autolink
+    - tables
+    - with_toc_data
+    - strikethrough
+    - smart
+
+# Syntax Highlighting
+highlighter: pygments
+
+# Approved github jekyll plugins
+gems:
+  - jekyll-sitemap
+  - jekyll-redirect-from
+  - jemoji
+
+# Ignore files meant for building
+exclude:
+  - .bowerrc
+  - .bundle
+  - .ruby-version
+  - bower.json
+  - CNAME
+  - Gemfile
+  - Gemfile.lock
+  - gulpfile.js
+  - node_modules
+  - package.json
